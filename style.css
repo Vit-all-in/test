@@ -1,0 +1,32 @@
+:root {
+   --main-color: #201039;
+   --icon-color: #00000057;
+   --text-color: #ffffff;
+   --title-color:#797073;
+   --light-color: #5cc391;
+   --body-font: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+ul, li{
+    list-style: none;
+}
+
+body{
+   background-color: var(--main-color);
+	color: var(--text-color);
+   max-width: 1024px;
+   margin: 0 auto;
+   font-size: 24px;
+}
